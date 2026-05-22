@@ -305,6 +305,26 @@
 <!-- End paper abstract -->
 
 
+<!-- Method overview -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Method</h2>
+        <img src="static/images/method_overview.jpg" alt="Overview of the GreenScapes pipeline for prompt-driven park vegetation design." style="width: 100%; height: auto;">
+        <div class="content has-text-justified" style="margin-top: 1rem;">
+          <p>
+            <strong>Overview of our pipeline for prompt-driven park vegetation design.</strong>
+            Inputs are a user text prompt (a) and OSM-derived site context (b). An image-to-image constrained editor generates multiple top-down layout proposals (c), which are converted to a metric top-down representation (d) and processed by instance extraction (e) to obtain candidate pedestrian viewpoints (f) and vegetation instance positions and coarse types (g). These instances are projected into world coordinates and assembled into a 3D park scene (h). We evaluate candidate scenes by rendering multiple in-scene views to compute perceptual descriptors and biomass-related quantities (i) and by running physics-inspired field models for functional measures such as shade and sound (j). CMA-ES then refines continuous instance parameters and triggers discrete species substitutions under a Gaussian-mixture asset prior using the combined perceptual and functional objectives (k), yielding the final optimized park layout (l).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End method overview -->
+
+
 <!-- TODO: Uncomment and fill in image carousel when result images are available
 <section class="hero is-small">
   <div class="hero-body">
