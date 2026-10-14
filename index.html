@@ -116,7 +116,6 @@
       { "@type": "Person", "name": "Sören Pirk", "affiliation": { "@type": "Organization", "name": "Kiel University" } },
       { "@type": "Person", "name": "Wojciech Palubicki", "affiliation": { "@type": "Organization", "name": "Adam Mickiewicz University" } }
     ],
-    "datePublished": "2026-01-01",
     "url": "https://greenscapes-project.github.io/",
     "keywords": ["vegetation placement", "urban landscape", "3D scene generation", "vision-language model", "CMA-ES", "computer graphics"],
     "abstract": "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are important for citizens' well-being and should be considered in the design of urban landscapes. In this paper, we present a novel method for configuring vegetation -- ranging from trees to flower beds -- in 3D urban scenes. Our method uses individual lots as input and employs a conditioned Vision-Language Model (VLM) to generate a top-down rendering of vegetation, including lawns, flowers, shrubs, hedges, and trees. This rendering is then converted into a 3D scene by detecting individual plants and selecting appropriate 3D assets. To obtain optimal placements for assets, we define a refinement loop that uses the VLM-generated propositions as an initial condition to perform a low-dimensional set of world-space transformations, along with discrete vegetation asset selections via CMA-ES. To define the objective function for the optimization, we evaluate the generated 3D scenes to derive the physical properties needed to simulate shade and path-based acoustic exposure indices. Furthermore, we render in-scene views in each optimization step to compute novel aesthetic metric scores, enabling the generation of aesthetic as well as functional vegetation layouts for urban scenes.",
@@ -228,7 +227,7 @@
             </div>
 
             <div class="is-size-5 publication-authors" style="margin-top: 0.5rem;">
-              <span class="author-block">SIGGRAPH Asia 2026</span>
+              <span class="author-block">Accepted to SIGGRAPH Asia 2026 &middot; publication forthcoming</span>
             </div>
 
                   <div class="column has-text-centered">
@@ -441,10 +440,11 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{GreenScapes2026,
+      <pre id="bibtex-code"><code>@inproceedings{GreenScapes2026,
   title={GreenScapes: Optimized Vegetation Configurations in Cities},
   author={Bartkowiak, Patryk and Marlewski, Marcin and W{\'o}jcik, Pawe{\l} and Lee, Jae Joong and Michels, Dominik L. and Benes, Bedrich and Pirk, S{\"o}ren and Palubicki, Wojciech},
-  note={To appear at SIGGRAPH Asia 2026},
+  booktitle={ACM SIGGRAPH Asia 2026 Conference Papers},
+  note={Accepted; publication forthcoming},
   year={2026}
 }</code></pre>
     </div>
