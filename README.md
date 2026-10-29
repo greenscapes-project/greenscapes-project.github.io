@@ -1,4 +1,4 @@
-# GreenScapes: Optimized Vegetation Configurations in Cities
+# Greenscapes: Optimized Vegetation Configurations in Cities
 
 Project page: <https://greenscapes-project.github.io/>
 
