@@ -48,9 +48,12 @@
   <meta name="citation_author" content="Benes, Bedrich">
   <meta name="citation_author" content="Pirk, Sören">
   <meta name="citation_author" content="Pałubicki, Wojciech">
+  <meta name="citation_conference_title" content="SIGGRAPH Asia 2026 Conference Papers">
   <meta name="citation_publication_date" content="2026/10/29">
   <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2610.40007">
   <meta name="citation_arxiv_id" content="2610.40007">
+  <meta name="citation_doi" content="10.1145/3829340.3842288">
+  <meta name="citation_isbn" content="979-8-4007-2842-6">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -119,7 +122,7 @@
       { "@type": "Person", "name": "Wojciech Palubicki", "affiliation": { "@type": "Organization", "name": "Adam Mickiewicz University" } }
     ],
     "url": "https://greenscapes-project.github.io/",
-    "sameAs": ["https://arxiv.org/abs/2610.40007"],
+    "sameAs": ["https://doi.org/10.1145/3829340.3842288", "https://arxiv.org/abs/2610.40007"],
     "datePublished": "2026-10-29",
     "keywords": ["vegetation placement", "urban landscape", "3D scene generation", "vision-language model", "CMA-ES", "computer graphics"],
     "abstract": "Vegetation plays a central role in cities, serving functional roles such as balancing shade and sky exposure, shaping the microclimate, carbon sequestration, and providing acoustic screening. Furthermore, aesthetic choices in landscape styles (formal, modernist, picturesque) are important for citizens' well-being and should be considered in the design of urban landscapes. In this paper, we present a novel method for configuring vegetation -- ranging from trees to flower beds -- in 3D urban scenes. Our method uses individual lots as input and employs a conditioned Vision-Language Model (VLM) to generate a top-down rendering of vegetation, including lawns, flowers, shrubs, hedges, and trees. This rendering is then converted into a 3D scene by detecting individual plants and selecting appropriate 3D assets. To obtain optimal placements for assets, we define a refinement loop that uses the VLM-generated propositions as an initial condition to perform a low-dimensional set of world-space transformations, along with discrete vegetation asset selections via CMA-ES. To define the objective function for the optimization, we evaluate the generated 3D scenes to derive the physical properties needed to simulate shade and path-based acoustic exposure indices. Furthermore, we render in-scene views in each optimization step to compute novel aesthetic metric scores, enabling the generation of aesthetic as well as functional vegetation layouts for urban scenes.",
@@ -242,6 +245,14 @@
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon"><i class="fab fa-github"></i></span>
                         <span>Code</span>
+                        </a>
+                      </span>
+                      <!-- Paper (ACM DL) -->
+                      <span class="link-block">
+                        <a href="https://doi.org/10.1145/3829340.3842288" target="_blank" rel="noopener"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon"><i class="ai ai-acm"></i></span>
+                        <span>Paper</span>
                         </a>
                       </span>
                       <!-- arXiv -->
@@ -435,7 +446,7 @@
 
 
 
-<!-- BibTeX citation: arXiv's own entry for 2610.40007, plus the venue note; replace with the official citation once the proceedings publish one -->
+<!-- BibTeX citation: the ACM proceedings entry, built from the camera-ready's ACM metadata (DOI 10.1145/3829340.3842288, 2026-11-17); add articleno and numpages once the ACM DL's export gives them -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
@@ -445,15 +456,18 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@misc{bartkowiak2026greenscapesoptimizedvegetationconfigurations,
+      <pre id="bibtex-code"><code>@inproceedings{10.1145/3829340.3842288,
+      author={Bartkowiak, Patryk and Marlewski, Marcin and W{\'o}jcik, Pawe{\l} and Lee, Jae Joong and Michels, Dominik L. and Bene{\v{s}}, Bed{\v{r}}ich and Pirk, S{\"o}ren and Pa{\l}ubicki, Wojciech},
       title={Greenscapes: Optimized Vegetation Configurations in Cities},
-      author={Patryk Bartkowiak and Marcin Marlewski and Paweł Wójcik and Jae Joong Lee and Dominik L. Michels and Bedrich Benes and Sören Pirk and Wojciech Pałubicki},
       year={2026},
-      eprint={2610.40007},
-      archivePrefix={arXiv},
-      primaryClass={cs.GR},
-      url={https://arxiv.org/abs/2610.40007},
-      note={SIGGRAPH Asia 2026},
+      isbn={9798400728426},
+      publisher={Association for Computing Machinery},
+      address={New York, NY, USA},
+      url={https://doi.org/10.1145/3829340.3842288},
+      doi={10.1145/3829340.3842288},
+      booktitle={SIGGRAPH Asia 2026 Conference Papers},
+      location={Kuala Lumpur, Malaysia},
+      series={SA Conference Papers '26},
 }</code></pre>
     </div>
 </section>
